@@ -20,8 +20,12 @@ class Maze:
             raise FileNotFoundError(f"Nie znaleziono pliku mapy pod ścieżką: {self.file_path}")
             
         with open(self.file_path, 'r', encoding='utf-8') as file:
-            # Wczytujemy linię po linii, usuwając białe znaki z końca (np. \n)
-            self.grid = [list(line.strip()) for line in file if line.strip()]
+            # Czyścimy linię z końca, usuwamy wszystkie spacje, a puste linie ignorujemy
+            self.grid = [
+            list(line.strip().replace(' ', '')) 
+            for line in file 
+            if line.strip()
+    ]
     def display_maze(self):
         """
         Wyświetla mapę o zbalansowanej szerokości, używając pojedynczego bloku 

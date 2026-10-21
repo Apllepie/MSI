@@ -1,0 +1,7 @@
+load_maze() Wczytanie planszy z pliku.
+get_neighbors() Wyznaczenie legalnych ruchów.
+bfs() Przeszukiwanie wszerz.
+dfs() Przeszukiwanie w głąb.
+reconstruct_path() Odtworzenie ścieżki.
+print_maze() Wyświetlenie planszy i trasy.
+print_cost() Wyświetlenie kosztu znalezionej ścieżki.

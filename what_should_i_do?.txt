@@ -5,3 +5,7 @@ dfs() Przeszukiwanie w głąb.
 reconstruct_path() Odtworzenie ścieżki.
 print_maze() Wyświetlenie planszy i trasy.
 print_cost() Wyświetlenie kosztu znalezionej ścieżki.
+
+
+
+rozszerzenie do tego co już jest

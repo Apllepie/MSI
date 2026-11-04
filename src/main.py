@@ -2,6 +2,9 @@ from pathlib import Path
 from maze import Maze
 from object import Robot
 
+FILE_NAME = "labirynt4.txt"
+
+
 def print_cost(path):
     """Wyświetla koszt ścieżki (długość trasy w krokach)."""
     if path:
@@ -10,7 +13,7 @@ def print_cost(path):
         print("Nie znaleziono ścieżki.")
 
 def main():
-    FILE_PATH = Path(__file__).resolve().parent.parent / "labirynt.txt"
+    FILE_PATH = Path(__file__).resolve().parent.parent / FILE_NAME
     
     try:
         labirynt = Maze(FILE_PATH)

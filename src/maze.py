@@ -56,7 +56,7 @@ class Maze:
         SCIANA = "\033[32m██ \033[0m"
         SCIEZKA = "\033[30m░░ \033[0m"
         START = "\033[94m▒▒ \033[0m"
-        META = "\033[31m▒▒ \033[0m"
+        META = "\033[1;37m▒▒ \033[0m"
         TRASA = "\033[33m** \033[0m"
 
         path_set = set(path) if path else set()

@@ -135,3 +135,7 @@ pasazerowie(lo122, 165).
 pasazerowie(lo123, 155).
 pasazerowie(lo124, 0).
 
+
+%Reguły
+lot_do(Miasto, Lot ) :- lot(Lot, Miasto, _,przylot , _, _, _   ).
+lot_z(Miasto, Lot ) :- lot(Lot, Miasto, _,odlot , _, _, _   ).

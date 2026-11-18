@@ -9,3 +9,9 @@ print_cost() Wyświetlenie kosztu znalezionej ścieżki.
 
 
 rozszerzenie do tego co już jest
+
+
+
+Project 2 
+
+https://swish.swi-prolog.org/
